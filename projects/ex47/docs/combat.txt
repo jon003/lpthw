@@ -1,0 +1,25 @@
+
+
+combat module workflow
+
+inputs: none
+outputs: did hero win?
+
+variables hero health, enemy health
+
+combat begins, everybody at max health
+who goes first?  hero always
+hero swings.
+ does damage.
+ is enemy dead?  
+  victory message
+  set combat over
+  return win
+ otherwise
+  enemy swings
+  does damage
+  did enemy win?
+  set combat over
+  return lose
+  
+ 
